@@ -1,0 +1,11 @@
+.lista {
+    background-color: beige;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    align-items: center;
+    margin-top: 0.5rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem; 
+}

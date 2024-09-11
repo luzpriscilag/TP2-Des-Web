@@ -1,0 +1,16 @@
+1. Crie uma página com um componente que gerencie o estado de um usuário com dados fixos que você vai definir (nome, idade) e um botão para incrementar a idade e outro para decrementar. Use useState para atualizar as propriedades do objeto quando os dados forem alterados.
+2. Crie uma página com um componente igual ao do exercício anterior. Use useReducer para atualizar as propriedades do objeto quando os dados forem alterados.
+3. Crie uma página com um componente igual ao do exercício anterior, mas que tenha 2 inputs: um para o nome e outro para a idade, com um botão INSERIR, permitindo criar uma lista de usuários. Ao lado de cada usuário deverá permanecer os botões de incremento e decremento da idade.
+4. Crie uma página com o componente do exercício anterior incluindo um novo botão para excluir o usuário.
+5. Crie uma página com um componente TO DO LIST que utilize useState para gerenciar o valor de um input, useReducer para gerenciar o estado de uma lista com inclusão e exclusão de tarefas.
+6. Crie uma página com o componente do exercício anterior com um botão adicional que risque a tarefa cumprida. Use estilos condicionais.
+7. Crie uma página com um componente com um input onde um valor é digitado e que calcule o fatorial de um número. Use useMemo para memorizar o resultado do cálculo e evitar recalcular desnecessariamente.
+8. Crie uma página com um input e uma lista de 100 nomes completos (full name) gerados pelo Faker. Conforme o usuário digita no input, filtre a lista para que apareça somente os nomes iniciados pelos caracteres digitados (desconsidere maiúsculas e minúsculas).
+9. Crie uma página igual a do exercício anterior que permita filtrar a lista por nomes que contenham os caracteres digitados (desconsidere maiúsculas e minúsculas).
+10. Crie uma página igual ao do exercício anterior, mas com nome completo (full name) e cargo (job title), permitindo filtrar nomes OU cargos iniciados pelos caracteres digitados (desconsidere maiúsculas e minúsculas).
+11. Crie uma página igual ao do exercício anterior, permitindo filtrar nomes OU cargos que contenham os caracteres digitados (desconsidere maiúsculas e minúsculas).
+12. Crie uma página com dois drop-down lists: um para UFs e outro para municípios. Utilize a API do IBGE. Utilize useEffect e useState para gerenciar o estado de carregamento e os dados da API e atualizar a lista de municípios conforme a UF selecionada. A lista de UFs deve ser carregada somente uma vez.
+Crie uma página semelhante ao exercício anterior, mas com somente 1 drop-down list e com os municípios sendo listados embaixo do drop-down list de UFs.
+13. Crie uma página semelhante ao exercício anterior, mas com somente 1 drop-down list e um input que permita filtrar os municípios iniciados pelos caracteres digitados (desconsidere maiúsculas e minúsculas).
+14. Crie uma página semelhante ao exercício anterior, mas com somente 1 drop-down list e um input que permita filtrar os municípios que contenham os caracteres digitados (desconsidere maiúsculas e minúsculas).
+15. Crie uma página com um input que permita a digitação de um ano terminado em ZERO (década) e mostre o ranking de frequência de nomes de brasileiros.
